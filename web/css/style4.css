@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Apr, 2022, 6:49:22 PM
+    Author     : Asus
+*/
+body
+{
+    background-image: url("../img/gray\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: no-content;
+    overflow-y: no-content;
+    background-color: #cccccc;
+    text-align: center;
+}
+.entry
+{
+    width:400px;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.entry button
+{
+    background-color: #2b6777;
+    color: rgb(228, 222, 222);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 44px 0 10px 0;
+  }
+  img.logo {
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    
+  }
+
+  /* logo image for foget password */
+  img.logos {
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    
+  }
+
+  img.fpbird {
+    text-align: center;
+    width:340px;
+    height:340px;
+    border-radius: 39%;
+    
+  }
+
+ 
+
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+  }
+
+  /* Full-width inputs */
+input[type=email], input[type=password]{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=text],select{
+    width: 55%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.50px solid rgb(20, 19, 19);
+    box-sizing: border-box;
+  }
+  .feedbackform{
+    background-color: #ceddd8;
+    color: rgb(19, 18, 18);
+    text-align: center;
+  }
+

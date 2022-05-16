@@ -1,0 +1,56 @@
+
+.items input[type='checkbox'] {
+    display: none;
+}
+.items input[type='checkbox'] + .like:before, .items input[type='checkbox'] + .like:after {
+    background-color:navy;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-clip: initial;
+    border-color: black;
+    border-radius: 12px 12px 0 0;
+    content:'';
+    height: 21px;
+    position:absolute;
+    left: 60px;
+    top: 20px;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    transition: all 0.25s ease;
+    width: 12px;
+}
+.items input[type='checkbox'] + .like:after {
+    left: 47px;
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+.items input[type='checkbox']:checked + .like:before, .items input[type='checkbox']:checked + .like:after {
+    background: green;
+    border-radius: 6px 6px 0 0;
+    width: 7px;
+}
+.items input[type='checkbox']:checked + .like:before {
+    height: 14px;
+    left: 25px;
+    top: 27px;
+    content: attr(data-hover);
+}
+.items input[type='checkbox']:checked + .like:after {
+    left: 20px;
+    top: 20px;
+}
+input[type='checkbox'] ~ .text {
+    color: #fff;
+    font-family: 'Gloria Hallelujah';
+    font-size: 24px;
+    position:absolute;
+
+    left: 58px;
+    top: 14px;
+    opacity: 1;
+}
+input[type='checkbox']:checked ~ .text {
+    opacity: 0;
+}
+
+

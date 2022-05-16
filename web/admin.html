@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADMIN_LOGIN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style3.css">
+        <script type="text/javascript">
+            function HandleBackFunctionality()
+            {
+                if (window.event)
+                {
+                    alert("Login first");
+                }
+            }
+            window.onunload = function () {
+                null
+            };
+        </script>
+    </head>
+    <body>
+    <center>
+        <div class="imgcontainer">
+            <img src="img/BanasthaliBazaar.png" alt="logo" class="logo">
+          </div>
+        <div class="entry">
+            <form action="admin.jsp">
+                <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:250%;color:#422113;"><b>WELCOME TO BANASTHALI BAZAAR</b></h1>
+                <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:200%;color:#422113;"><b>ADMIN LOGIN</b></h4>
+                <h2><b>Enter details....</b></h2>
+                <label for="mailid" style="font-family:Arial;"><b>Email ID</b></label>
+                <br>
+                <input type="email" name="email_id" placeholder="Enter Your Email Id" style="width:280px;" required/>
+                <br>
+                <label for="psw" style="font-family:Arial;"><b>Password</b></label>
+                <br>
+                <input type="password" name="password"  placeholder="Enter Password" style="width:280px;" required/>
+                <br>
+                <a href="admin.jsp">
+                    <button style="width:160px;"><b>LOG IN</b></button>
+                </a>
+                <br>
+            </form>
+                <a href="index.html">
+                    <button style="width:160px;"><b>BACK</b></button>
+                </a>
+            <br/>
+        </div>
+    </center>
+</body>
+</html>
