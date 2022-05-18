@@ -43,6 +43,15 @@
             <a href="view_student.jsp" >
                 <button>VIEW STUDENTS</button>
             </a><br/>
+            <a href="add_hostel.jsp" >
+                <button>ADD / DELETE HOSTEL</button>
+            </a><br/>
+            <a href="add_security_ques.jsp" >
+                <button>ADD / DELETE SECURITY QUESTION</button>
+            </a><br/>
+            <a href="add_category.jsp" >
+                <button>ADD / DELETE ITEM CATEGORY</button>
+            </a><br/>
             <%
                 session.setAttribute("email", email_id);
                 session.setAttribute("pass", pass);

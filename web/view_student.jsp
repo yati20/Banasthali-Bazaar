@@ -6,15 +6,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Student Details</title>
         <link rel="stylesheet" href="css/style3.css">
-        <!--        <script type="text/javascript">
-                    function disableBack() {
-                        window.history.forward();
-                    }
-                    setTimeout("disableBack()", 0);
-                    window.onunload = function () {
-                        null
-                    };
-                </script>-->
     </head>
     <body>
     <center>
